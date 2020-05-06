@@ -1,0 +1,497 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 14px;    
+    background-color:#E0EEEE;
+}
+
+
+.navbarup{
+    height: 4rem;
+    background-color: #363636;
+    border: black 1px solid;
+}
+.containerup{
+    margin-top: 0.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0.5rem;
+}
+.icon{
+    width: 10rem;
+    font-size: 16px;
+    /*border:white 1px solid;*/
+    color:white;
+    float: left;
+    margin-left: 5%;
+    margin-top: 0.7rem;
+}
+.menuup{
+    /*border: 1px white solid; */
+    width: 50rem;
+    float:left;
+    margin-top: -0.4rem;
+}
+.menuup li {
+    list-style: none;
+    display: inline;
+    color:#9c9c9c;
+    padding-right: 3.5rem;
+    font-size: 16px;
+}
+.btn{
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    line-height: 1.8rem;
+    outline: none;
+    border-radius: 0.1rem;
+}
+.active{
+    color: white !important;
+}
+.navbaricon{
+    width: 25rem;
+    color: gray;
+    /*border: white 1px solid;*/
+    padding-top: 0.1rem;
+    float: left;
+}
+.navbaricon li{
+    list-style: none;
+    display: inline;
+    padding-left: 3rem;
+}
+.navbarprofile{
+    width: 3rem;
+    float: left;
+    /*border: white 1px solid;*/
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+}
+.navbarprofile img {
+border-radius: 50%;
+width: 2.6rem;
+height: 2.6rem;
+}
+.navbarright p{
+    color:#9c9c9c;
+    float: left;
+}
+.banner{
+    border: black 1px solid;
+    height: 20rem;
+}
+.banner img{
+    width: 100%;
+    height: 20rem;
+}
+.containermiddle{
+    /*border: black 1px black;*/
+    height: 100vh;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.profile{
+    height: 8rem;    
+}
+.profileimage{
+    width: 10rem;
+    height: 100%;
+    float: left; 
+    position: relative;
+    z-index:2;
+    margin-top: -4rem;
+}
+.profileimage img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.profilecontent{
+    width: 50%;
+    height: 6rem;
+    float: left;
+    padding: 1rem;
+}
+.profilecontentup{
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.profilecontentmiddle{
+    color:gray;
+    margin-bottom: 0.5rem;
+}
+.profilecontentdown{
+    color:gray;
+    margin-bottom: 0.5rem;
+}
+.viewevents{
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+.vieweventsmiddle{
+    height: 4rem;
+    width:5rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    float: left;
+}
+.vieweventsright{
+    height: 4rem;
+    width:8rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    float: right;
+}
+.events{
+    font-size: 24px;
+    color:gray;
+    text-align: center;
+}
+.eventsnumber{
+    font-size:22px;
+    font-weight: 600;
+    text-align: center;
+}
+.navbarmiddle{
+    margin-top: 5%;
+    /*border: 1px black solid;*/
+    height: 3rem;
+}
+.navbarmiddle ul{
+    padding-left:0;
+    padding-right:0;
+}
+
+.list{
+    float: left;
+    list-style: none;
+    margin-right: 4.6rem;
+    display: inline;
+    color: gray;
+    font-size: 18px;
+}
+.listrigt{
+    list-style: none;
+    float: left;
+    color:gray;
+    font-size: 18px;
+}
+.activelist{
+    font-weight: 700;
+    color:black;
+}
+.middle{
+    margin-top: 2rem;
+    /*border: 1px black solid;*/
+    height: 80rem;
+}
+.leftside{
+    width: 20%;
+    /*border: black 1px solid;*/
+    margin-right: 2%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+.leftup{
+    /*border: black 1px solid;*/
+    height: 34rem;
+    margin-bottom: 5%;
+}
+.leftup ul{
+    padding: 0;
+    margin: 0;
+}
+.social{
+    padding: 1rem !important;
+    color: black !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+.socialleft{
+    width: 1rem;
+    float: left;
+    margin:0.1rem;
+}
+.leftup li{
+    padding: 1.1rem 1rem 1rem 1rem;
+    list-style: none;
+    height: 1.4rem;
+    background-color: white;
+    border-bottom: lightgray 1px solid;
+    color:mediumslateblue;
+}
+.leftup li img{
+    width: 1rem;
+}
+.leftdown{
+    /*border: black 1px solid;*/
+    height: 23.3rem;
+}
+.leftdown ul{
+    margin: 0;
+    padding:0;
+}
+.leftdown li{
+    padding: 0.8rem 1rem 1rem 1rem;
+    list-style: none;
+    height: 2rem;
+    background-color: white;
+    border-bottom: lightgray 1px solid;
+    color:mediumslateblue;
+}
+.listleft {
+    float: left;
+}
+
+.listleft img{
+    margin-right: 1rem;
+    border-radius: 50%;
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.listmiddle{
+    padding: 0.6rem !important;
+    color: black !important;
+    font-size: 16px;
+    font-weight: 600;
+    width: 10rem;
+    float: left;
+}
+.listright{
+    padding: 0.2rem !important;
+    float: right;
+    border: lightgray 1px solid;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: black;
+}
+.listright i{
+    padding: 0.3rem;
+}
+.aside{
+    width: 55%;
+    margin-right: 2%;
+    height: 100%;
+    float: left;
+}
+.aside1{
+    background-color: white;
+    height: 15rem;
+    /*border:9 black 1px solid;*/
+    margin-bottom: 2%;
+}
+.aside1up{
+    height: 11rem;
+    /*border: 1px black solid;*/
+}
+.rightfoto{
+    width: 3.5rem;
+    height: 3.5rem;
+    /*border: black 1px solid;*/
+    float: left;
+}
+.rightfoto img{
+    margin: 0.3rem;
+    border-radius: 50%;
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.textarea {
+    margin-top: 1.5rem;
+    margin-left:0.2rem;
+    width: 12rem;
+    height: 100%;
+    float: left;
+}
+.aside1down button{
+   margin-left:29rem;
+   margin-top:1rem;
+   line-height: 1.8rem;
+   color: white;
+   background-color: orangered;
+}
+.leftfoto{
+    padding:0.3rem;
+    float: left;
+    width: 46rem;
+}
+.leftfotoup{
+    color: black;
+    font-weight: 600;
+}
+.leftfotodown{
+color:#9c9c9c;
+}
+.leftfotoright{
+    float:left;
+    margin:0.5rem;
+    color:gray;
+}
+.aside2up{
+   height: 3rem; 
+   padding-top:0.5rem;
+   padding-left: 0.5rem;
+}
+.aside1middle{
+    margin-top: 2rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
+    height: 6.5rem;
+    color:gray;
+}
+.aside1middle2{
+    margin-top: 2rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
+    height: 2rem;
+    color:gray;
+}
+.aside2bottomleft img{
+    margin: 0.3rem;
+    border-radius: 50%;
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.aside1bottom{
+    color:gray;
+    padding: 1rem;
+    border-top: 1px lightgrey solid;
+}
+.aside1bottomleft{
+    float:left;
+}
+.aside1bottomleft ul{
+    padding:0;
+    margin:0;
+}
+.aside1bottomleft li{
+display: inline;
+list-style: none;
+margin-right: 1rem;
+margin-left: 2rem;
+}
+.aside1bottomright{
+    float: right;
+    margin-right: 1rem;
+}
+#aside3{
+    margin: 0;
+    border-bottom: 0;
+}
+.aside2bottom{
+    color:gray;
+    padding: 0.5rem;
+    border-top: 1px lightgrey solid;
+}
+.aside2bottomleft{
+    width:3rem;
+    float: left;
+}
+.aside2bottommiddle{
+    float: left;
+    width: 39rem;
+}
+.aside2bottommiddle input{
+    height: 2rem;
+    margin-left:1rem;
+    margin-top: 0.3rem;
+    width: 38rem;
+    padding-left: 1rem;
+}
+
+.rightside{
+    width: 20%;
+    /*border: black 1px solid;*/
+    height: 70rem;
+    float: right;
+}
+.rightup{
+    height: 18rem;
+    margin-bottom: 2rem;
+}
+.rightup img{
+    width: 100%;
+    height: 18rem;
+}
+.rightmiddle{
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+.rightmiddle img{
+    height: 20rem;
+    width: 100%;
+}
+.rightdown{
+    background-color: white;
+    height: 29rem;
+}
+.rightdowntop{
+    height: 2rem;
+    color: black;
+    font-weight: 600;
+    font-size:18px;
+    padding-top:1rem;    
+}
+#rightdowntop p{
+    margin:0;
+    text-align: center;
+}
+.rightdownmiddle{
+    border-top:1px lightgray solid;
+    border-bottom:1px lightgray solid;
+    height: 5.5rem;
+    padding: 1rem;
+}
+.newsicon{
+    color:black;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+a{
+    color:mediumslateblue;
+}
+.container{
+    width: 90vw;
+}
+.footer{
+    height: 4rem;
+    margin-top: 53rem;
+    background-color:#F0FFFF;
+}
+.leftfooter{
+    width: 50%;
+    float:left;
+    height: 4rem;
+    font-size: 16px;
+    color:gray;
+}
+.rightfooter{
+    width: 40%;
+    float:right;
+    height: 4rem;
+}
+.rightfooter ul{
+    padding: 0.7rem;
+    float:right;
+}
+.rightfooter li{
+    list-style: none;
+    display: inline;
+    padding-left: 5rem;
+    color: gray;
+    
+    
+}
